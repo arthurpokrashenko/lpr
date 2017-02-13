@@ -1,0 +1,33 @@
+.card {
+  background: #fff;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, .2);
+  width: 400px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.image {
+  display: block;
+  height: 220px;
+  width: 100%;
+}
+
+.image img {
+  height: 210px;
+  width: 60%;
+  margin: 0 20% 0;
+  object-fit: contain;
+  background-color: white;
+}
+
+.info {
+  display: block;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #808080;
+}
